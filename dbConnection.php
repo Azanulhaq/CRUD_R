@@ -1,7 +1,7 @@
 <?php
-$databaseHost = 'localhost';
-$databaseUsername = 'root';
-$databasePassword = '';
+$databaseHost = 'crud-s.mysql.database.azure.com';
+$databaseUsername = 'CrudAdmin';
+$databasePassword = 'Admin1234567';
 $databaseName = 'test';
 
 // Open a new connection to the MySQL server
