@@ -33,6 +33,17 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 			echo "<td><a href=\"edit.php?id=$res[id]\">Edit</a> | 
 			<a href=\"delete.php?id=$res[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
 		}
+		{
+    "type": "Microsoft.Maps/accounts/creators",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "storageUnits": 1
+    },
+    "id": "/subscriptions/5f8b2947-8c67-420e-956c-85f4c56221f7/resourceGroups/tester/providers/Microsoft.Maps/accounts/tester/creators/Azan",
+    "name": "Azan",
+    "location": "East US 2",
+    "tags": {}
+}
 		?>
 	</table>
 </body>
